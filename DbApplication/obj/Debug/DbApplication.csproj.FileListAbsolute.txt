@@ -98,3 +98,6 @@ D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.SqlServer.
 D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.xml
 D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.SqlServer.xml
 D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\zh-Hant\EntityFramework.resources.dll
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\Dapper.dll
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\Dapper.xml
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\zh-Hant\EntityFramework.SqlServer.resources.dll

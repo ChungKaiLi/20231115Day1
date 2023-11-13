@@ -12,8 +12,7 @@ namespace DbApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //"Data Source=SQL8004.site4now.net;Initial Catalog=db_a8a4ae_atunas;User Id=db_a8a4ae_atunas_admin;Password=atunas123"
-           
+            
         
         }
 
