@@ -93,3 +93,8 @@ D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\System.Text.Encodings.Web.
 D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\System.Text.Json.xml
 D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\System.Threading.Tasks.Extensions.xml
 D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\System.ValueTuple.xml
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.dll
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.SqlServer.dll
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.xml
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\EntityFramework.SqlServer.xml
+D:\SW\程式碼\教學\20231115Day1\DbApplication\bin\zh-Hant\EntityFramework.resources.dll
