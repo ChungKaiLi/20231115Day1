@@ -34,14 +34,9 @@ namespace DbApplication
             }
             finally
             {
-                try
-                {
+                if(conn != null && conn.State == System.Data.ConnectionState.Open)
                     conn.Close();
-                }
-                catch(Exception ex)
-                {
-                    Label1.Text += ex.Message;
-                }
+  
                 
             }
             
@@ -53,8 +48,6 @@ namespace DbApplication
         {
             OracleConnection conn = null;
             string connString = "Data Source = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.2.60)(PORT = 1521)))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = ORCL))); User ID = COA2; Password = COA2; Persist Security Info = false; pooling = true; Min Pool Size = 1; Max Pool Size = 10; Connection Lifetime = 0";
-
-            throw new Exception("連線字串有問題");
 
             conn = new OracleConnection(connString);
 

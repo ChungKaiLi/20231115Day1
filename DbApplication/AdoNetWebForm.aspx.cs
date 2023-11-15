@@ -68,19 +68,19 @@ namespace DbApplication
                 //===========================================================
                 // ExecuteNonQuery
                 //===========================================================
-                //OracleCommand command1 = conn.CreateCommand();
-                //command1.CommandType = CommandType.Text;
-                //command1.CommandText = "Insert INTO T_TEST(COL1,COL2,COL3) Values ('1','2','3')";
-                //command1.ExecuteNonQuery();
+                OracleCommand command1 = conn.CreateCommand();
+                command1.CommandType = CommandType.Text;
+                command1.CommandText = "Insert INTO T_TEST(COL1,COL2,COL3) Values ('A1','A2','A3')";
+                command1.ExecuteNonQuery();
 
                 //===========================================================
                 // ExecuteScalar
                 //===========================================================
-                OracleCommand command2 = conn.CreateCommand();
-                command2.CommandType = CommandType.Text;
-                command2.CommandText = "SELECT COL1 FROM T_TEST";
-                string col1 = command2.ExecuteScalar().ToString();
-                Label2.Text = col1;
+                //OracleCommand command2 = conn.CreateCommand();
+                //command2.CommandType = CommandType.Text;
+                //command2.CommandText = "SELECT COL1 FROM T_TEST";
+                //string col1 = command2.ExecuteScalar().ToString();
+                //Label2.Text = col1;
 
             }
         }
@@ -104,7 +104,7 @@ namespace DbApplication
                 Label3.Text = dTable.Rows.Count.ToString();
 
                 //int count = 0;
-                //順向逐筆讀取
+                ////順向逐筆讀取
                 //while (oReader.Read())
                 //{
                 //    count++;
@@ -142,7 +142,7 @@ namespace DbApplication
                     cmd.CommandText = "Insert INTO T_TEST(COL1,COL2,COL3) Values ('7','8','9')";
                     cmd.ExecuteNonQuery();
 
-                    throw new Exception("交易錯誤");
+                    //throw new Exception("交易錯誤");
                     cmd.CommandText = "Insert INTO T_TEST(COL1,COL2,COL3) Values ('4','5','6')";
                     cmd.ExecuteNonQuery();
 
